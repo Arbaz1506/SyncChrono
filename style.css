@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 500px;
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 255, 200, 0.1);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #00ffc8;
+    margin-bottom: 1.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+nav button {
+    background-color: #292929;
+    color: #00ffc8;
+    border: 1px solid #00ffc8;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #00ffc8;
+    color: #121212;
+}
+
+#clock,
+#stopwatch,
+#timer {
+    margin-top: 1rem;
+}
+
+#clock-time {
+    font-size: 2rem;
+    margin: 1rem 0;
+    letter-spacing: 2px;
+}
+
+#toggle-format {
+    background-color: transparent;
+    border: 1px solid #888;
+    color: #ccc;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#toggle-format:hover {
+    background-color: #00ffc8;
+    color: #121212;
+    border-color: #00ffc8;
+}
+
+#stopwatch-time,
+#timer-display {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #00ffc8;
+    margin-bottom: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+#stopwatch button,
+#timer button {
+    background-color: #292929;
+    color: #00ffc8;
+    border: 1px solid #00ffc8;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    margin: 0.3rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#stopwatch button:hover,
+#timer button:hover {
+    background-color: #00ffc8;
+    color: #121212;
+}
+
+#timer-input {
+    padding: 0.6rem;
+    border-radius: 6px;
+    border: 1px solid #444;
+    background-color: #1a1c22;
+    color: #00ffc8;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    outline: none;
+    appearance: textfield;
+    position: relative;
+}
+
+#timer-input::-webkit-inner-spin-button,
+#timer-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#timer-input[type=number] {
+    -moz-appearance: textfield;
+}
