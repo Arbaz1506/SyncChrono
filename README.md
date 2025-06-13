@@ -21,10 +21,10 @@
 - Simple and intuitive functionality
 
 ---
-
 ## 🚀 Live Demo
 
 👉 [Click here to try SyncChrono](https://arbaz1506.github.io/SyncChrono)
+
 
 ---
 
